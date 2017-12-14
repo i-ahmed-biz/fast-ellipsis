@@ -1,24 +1,24 @@
 {
   "name": "fast-ellipsis",
-  "version": "0.1.0",
-  "authors": [
-    {
-      "name": "I. Ahmed",
-      "email": "i.ahmed.biz@gmail.com"
-    }
-  ],
+  "description": "Multi-line ellipsis with normal and HTML text support.",
   "main": ["dist/fast-ellipsis.js"],
-  "ignore": [
-    "src",
-    "test",
-    "gulpfile.js",
-    "karma-*.conf.js",
-    "**/.*"
+  "authors": [
+    "I. Ahmed <i.ahmed.biz@gmail.com>"
   ],
-  "dependencies": {},
-  "devDependencies": {
-    "angular-mocks": ">=1.2.0",
-    "angular-scenario": ">=1.2.0",
-    "angular": ">=1.2.0"
-  }
+  "license": "MIT",
+  "keywords": [
+    "Ellipsis",
+    "Multi-line",
+    "multi",
+    "line"
+  ],
+  "homepage": "https://github.com/i-ahmed-biz/fast-ellipsis",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower",
+    "test",
+    "tests"
+  ]
 }
