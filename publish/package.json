@@ -1,6 +1,6 @@
 {
   "name": "fast-ellipsis",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Multi-line ellipsis with normal and HTML text support.",    
   "author": "I. Ahmed <i.ahmed.biz@gmail.com>",
   "main": "fast-ellipsis.min.js",    
