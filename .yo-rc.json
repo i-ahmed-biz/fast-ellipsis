@@ -1,0 +1,29 @@
+{
+  "generator-angularjs-library": {
+    "props": {
+      "author": {
+        "name": "I. Ahmed",
+        "email": "i.ahmed.biz@gmail.com"
+      },
+      "libraryName": {
+        "original": "fast-ellipsis",
+        "camelized": "fastEllipsis",
+        "dasherized": "fast-ellipsis",
+        "slugified": "fast-ellipsis",
+        "parts": [
+          "fast",
+          "ellipsis"
+        ]
+      },
+      "includeModuleDirectives": false,
+      "includeModuleFilters": false,
+      "includeModuleServices": false,
+      "includeAngularModuleResource": false,
+      "includeAngularModuleCookies": false,
+      "includeAngularModuleSanitize": false,
+      "librarySrcDirectory": "src/fast-ellipsis",
+      "libraryUnitTestDirectory": "test/unit/fast-ellipsis",
+      "libraryUnitE2eDirectory": "test/e2e/fast-ellipsis"
+    }
+  }
+}
