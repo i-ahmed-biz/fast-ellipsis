@@ -1,6 +1,7 @@
 {
   "name": "fast-ellipsis",
   "description": "Multi-line ellipsis with normal and HTML text support.",
+  "version": "0.1.1",    
   "main": ["dist/fast-ellipsis.js"],
   "authors": [
     "I. Ahmed <i.ahmed.biz@gmail.com>"
@@ -20,5 +21,14 @@
     "bower",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "angular-mocks": ">=1.2.0",
+    "angular-scenario": ">=1.2.0",
+    "angular": ">=1.2.0",
+    "angular-resource": ">=1.2.0",
+    "angular-cookies": ">=1.2.0",
+    "angular-sanitize": ">=1.2.0"
+  }
 }

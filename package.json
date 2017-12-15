@@ -1,10 +1,13 @@
 {
   "name": "fast-ellipsis",
-  "version": "0.1.0",
-  "author": {
-    "name": "I. Ahmed",
-    "email": "i.ahmed.biz@gmail.com"
-  },
+  "version": "0.1.1",
+  "description": "Multi-line ellipsis with normal and HTML text support.",
+  "author": "I. Ahmed <i.ahmed.biz@gmail.com>",
+  "main": "dist/fast-ellipsis.js",
+  "keyword": [
+    "Ellipsis",
+    "Multi-line"
+  ],
   "dependencies": {},
   "devDependencies": {
     "chai": "^1.9.1",
