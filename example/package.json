@@ -1,0 +1,26 @@
+{
+  "name": "Fast Ellipsis Demo",
+  "version": "0.1.2",
+  "description": "Demo that shows the use of fast ellipsis library",
+  "author": "I. Ahmed <i.ahmed.biz@gmail.com>",
+  "main": "ellipsis/demo.js",
+  "homepage": "https://github.com/i-ahmed-biz/fast-ellipsis",
+  "bugs": {
+        "url": "https://github.com/i-ahmed-biz/fast-ellipsis/issues"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower",
+    "test",
+    "tests"
+  ],    
+  "dependencies": {
+      "angular": ">=1.2.0",
+      "fast-ellipsis": ">=0.1.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

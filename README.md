@@ -5,7 +5,9 @@ Fast-Ellipsis is a AngularJS library, it can be used to truncate the text displa
   - Truncate the text.
   - Add symbol or text as the end to mark text truncated.
   - HTML/ normal text supported as main and symbol text.
-
+### New Feature V0.1.2
+  - Added demo example.
+  
 ### New Feature V0.1.1
   - Added readme file.
 
