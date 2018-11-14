@@ -1,4 +1,4 @@
-angular.module('demoApp', ['thls.fast-ellipsis'])
+angular.module('demoApp', ['this.fast-ellipsis'])
     .service('dataService',['$q','$http',function($q,$http){
         this.loadImages = function(){
             return $http.jsonp("https://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=JSON_CALLBACK");

@@ -13,18 +13,12 @@ describe('', function() {
   beforeEach(function() {
 
   // Get module
-  module = angular.module('thls.fast-ellipsis');
+  module = angular.module('this.fast-ellipsis');
   dependencies = module.requires;
   });
 
   it('should load config module', function() {
-    expect(hasModule('thls.fast-ellipsis.config')).to.be.ok;
+    expect(hasModule('this.fast-ellipsis.config')).to.be.ok;
   });
-
-  
-
-  
-
-  
 
 });

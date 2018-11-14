@@ -3,7 +3,7 @@
 /**
  *	Angular library for truncating multi-line text by checking the text container height
  *
- *	@directive fast-ellipsis(fastEllipsis) (Need the arrtibute directive to use the functionality) REQUIRED
+ *	@directive fast-ellipsis(fastEllipsis) (Need the attribute directive to use the functionality) REQUIRED
  *	@parameter ellipsis-text (ellipsisText) (HTML/normal text that have to be truncated) REQUIRED 
  *	@parameter ellipsis-truncate-text (ellipsisTruncateText) (The HTML/string that will be added after truncate, 
  *             if its not used then default (...) will be added) OPTIONAL
@@ -12,13 +12,13 @@
  *
  */
   // Config
-  angular.module('thls.fast-ellipsis.config', [])
-      .value('thls.fast-ellipsis.config', {
+  angular.module('this.fast-ellipsis.config', [])
+      .value('this.fast-ellipsis.config', {
           debug: true
       });
 
   // Modules
-  angular.module('thls.fast-ellipsis',['thls.fast-ellipsis.config'])
+  angular.module('this.fast-ellipsis',['this.fast-ellipsis.config'])
     .directive('fastEllipsis', ['$window', '$timeout', function($window, $timeout) {
     return {
       restrict: 'A',
@@ -82,7 +82,7 @@
             return lastOverflowedIndex;
           }
             
-          function careateEllipsis() {
+          function createEllipsis() {
             var binding = scope.ellipsisText;
             
             if (!binding) {
@@ -124,19 +124,19 @@
             element[0].parentNode.removeChild(clonedNode);
           }
 
-          function careateEllipsisInTimer() {
+          function createEllipsisInTimer() {
             $timeout(function() {
-                careateEllipsis();
+                createEllipsis();
               }
             );
           }
           
           scope.$watch('ellipsisText', function() {
-            careateEllipsisInTimer();
+            createEllipsisInTimer();
           });
     
           function onWindowResize() {   
-            careateEllipsisInTimer();
+            createEllipsisInTimer();
           }
 
           var window = angular.element($window);

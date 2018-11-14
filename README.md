@@ -32,7 +32,7 @@ $ bower install fast-ellipsis
 ### Source code modification
 Add the library to main module.
 ```
-angular.module('demoApp', ['thls.fast-ellipsis'])
+angular.module('demoApp', ['this.fast-ellipsis'])
 ```
 Update the the HTML file:
 ```
