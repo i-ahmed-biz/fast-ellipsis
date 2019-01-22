@@ -82,7 +82,7 @@
             return lastOverflowedIndex;
           }
             
-          function careateEllipsis() {
+          function createEllipsis() {
             var binding = scope.ellipsisText;
             
             if (!binding) {
@@ -123,19 +123,19 @@
             element[0].parentNode.removeChild(clonedNode);
           }
 
-          function careateEllipsisInTimer() {
+          function createEllipsisInTimer() {
             $timeout(function() {
-                careateEllipsis();
+                createEllipsis();
               }
             );
           }
           
           scope.$watch('ellipsisText', function() {
-            careateEllipsisInTimer();
+            createEllipsisInTimer();
           });
     
           function onWindowResize() {   
-            careateEllipsisInTimer();
+            createEllipsisInTimer();
           }
 
           var window = angular.element($window);
